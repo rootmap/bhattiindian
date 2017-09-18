@@ -1,0 +1,3 @@
+db : skeletob_restaurant
+user : skeletob_rest
+pas: rQX~q#_40&Uk

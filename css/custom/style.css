@@ -1,0 +1,35 @@
+.TzStatistic .info{
+    background-repeat: no-repeat;
+    padding-left: 46px;
+}
+.TzStatistic .row-fluid{
+    padding-bottom: 20px;
+}
+
+.TzStatistic .chart {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.TzStatistic .chart canvas {
+    top: 0;
+    left: 0;
+    z-index: 2;
+    position: absolute;
+}
+.TzStatistic .chart-inner{
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 99%;
+    height: 99%;
+    margin: auto;
+    position: absolute;
+}
+.TzStatistic .percent {
+    display: inline-block;
+}
+.TzStatistic .percent:after {
+    content: '%';
+}

@@ -1,0 +1,71 @@
+/* UNIVERSAL RESPONSIVE GRID SYSTEM v1.0 - By ukrdevs.com
+   ========================================================================== */
+   
+.center {
+	width:  1170px;
+	margin: 0 auto;
+}
+.centerr {
+	width:  960px;
+	margin: 0 auto;
+}
+/* UNIVERSAL GRID
+   ========================================================================== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+[class*="cols-"] > * {
+	float: left;
+}
+.cols-2 > * { width: 50%;     }
+.cols-3 > * { width: 33.333%; }
+.cols-4 > * { width: 25%;     }
+.cols-5 > * { width: 20%;     }
+.cols-6 > * { width: 16.666%; }
+
+.margin-small {
+	margin-left: -1px;
+	margin-right: -1px;
+}
+.margin-medium {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.margin-large {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.margin-small > * {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.margin-medium > * {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.margin-large > * {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.to-right > * { 
+	float: right;
+}
+
+.like-table {
+	display: table;
+	width: 100%;
+	table-layout: fixed;	
+}
+.like-table > * {
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}
+.gallery::after,
+#single-post::after,
+[class*="cols-"]::after,
+.clearfix::after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
